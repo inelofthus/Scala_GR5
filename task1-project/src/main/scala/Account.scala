@@ -9,7 +9,7 @@ class Account(var initialBalance: Double, val uid: Int = Bank getUniqueId) {
     } else {
       initialBalance -= amount
     }
-  } // Implement
+  }
   def deposit(amount: Double): Unit = {
     if (amount >= 0) {
       initialBalance += amount;
