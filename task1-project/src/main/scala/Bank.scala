@@ -17,9 +17,10 @@ object Bank {
     }
   } // Implement
 
-  def getUniqueId: Int = {
-    idCounter += 1 // Can this be improved?
-    idCounter
+  def getUniqueId: Int = this.synchronized {
+    val freshUid = idCounter + 1
+    idCounter = freshUid
+    freshUid
   }
 }
 
