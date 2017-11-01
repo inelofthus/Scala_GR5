@@ -7,7 +7,7 @@ class Account(val bank: Bank, var initialBalance: Double) {
   val balance = new Balance(initialBalance)
   val uid = bank.generateAccountId
 
-  def withdraw(amount: Double): Unit = {
+  def withdraw(amount: Double): Unit = this.synchronized {
     if(amount>initialBalance){
       throw new NoSufficientFundsException;
     } else if (amount < 0) {
@@ -16,7 +16,7 @@ class Account(val bank: Bank, var initialBalance: Double) {
       initialBalance -= amount
     }
   }
-  def deposit(amount: Double): Unit = {
+  def deposit(amount: Double): Unit = this.synchronized {
     if (amount >= 0) {
       initialBalance += amount;
     } else {
@@ -26,6 +26,7 @@ class Account(val bank: Bank, var initialBalance: Double) {
   def getBalanceAmount: Double = initialBalance
 
   def transferTo(account: Account, amount: Double) = {
+    println("transferTo")
     bank addTransactionToQueue (this, account, amount)
   }
 

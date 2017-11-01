@@ -15,13 +15,16 @@ class TransactionQueue {
   private val queue = new LinkedBlockingQueue[Transaction]()
 
   // Remove and return the first element from the queue
-  def pop: Transaction = queue.take
+  def pop: Transaction = {
+    val head = queue.take
+    head
+  }
 
   // Return whether the queue is empty
   def isEmpty: Boolean = queue.peek == null
 
   // Add new element to the back of the queue
-  def push(t: Transaction): Unit = queue.offer(t)
+  def push(t: Transaction): Unit = queue.put(t)
 
   // Return the first element from the queue without removing it
   def peek: Transaction = queue.peek
@@ -40,12 +43,12 @@ class Transaction(val transactionsQueue: TransactionQueue,
   var status: TransactionStatus.Value = TransactionStatus.PENDING
 
   override def run: Unit = {
-
+    println("En")
     def doTransaction() = {
       from withdraw amount
       to deposit amount
     }
-
+    println("To")
     if (from.uid < to.uid) from synchronized {
       to synchronized {
         doTransaction
@@ -56,6 +59,10 @@ class Transaction(val transactionsQueue: TransactionQueue,
       }
     }
 
+    println("Tre")
+    this.status = TransactionStatus.SUCCESS
+    processedTransactions.push(this)
+    println("Fire")
     doTransaction()
     // Extend this method to satisfy new requirements.
 

@@ -1,7 +1,7 @@
 import exceptions.NoSufficientFundsException, exceptions.IllegalAmountException
 
 class Account(var initialBalance: Double, val uid: Int = Bank getUniqueId) {
-  def withdraw(amount: Double): Unit = {
+  def withdraw(amount: Double): Unit = this.synchronized {
     if(amount>initialBalance){
       throw new NoSufficientFundsException;
     } else if (amount < 0) {
@@ -10,7 +10,7 @@ class Account(var initialBalance: Double, val uid: Int = Bank getUniqueId) {
       initialBalance -= amount
     }
   }
-  def deposit(amount: Double): Unit = {
+  def deposit(amount: Double): Unit = this.synchronized {
     if (amount >= 0) {
       initialBalance += amount;
     } else {

@@ -1,14 +1,8 @@
 [0m[[0m[0minfo[0m] [0m[0m[32mAccountTests:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31mAccountTests *** ABORTED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at Bank.<init>(Bank.scala:9)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at AccountTests.<init>(AccountTests.scala:6)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at java.lang.reflect.Constructor.newInstance(Constructor.java:423)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at java.lang.Class.newInstance(Class.java:442)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:435)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at sbt.TestRunner.runTest$1(TestFramework.scala:102)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test 01: Valid account withdrawal[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test 02: Invalid account withdrawal should throw exception[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test 03: Withdrawal of negative amount should throw exception[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test 04: Valid account deposit[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test 05: Deposit of negative amount should throw exception[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test 06: Correct balance amount after several withdrawals and deposits[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test 07: Account IDs are unique[0m[0m
