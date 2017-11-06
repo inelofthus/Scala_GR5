@@ -23,27 +23,37 @@ class Account(val accountId: String, val bankId: String, val initialBalance: Dou
   }
 
   def getTransactions: List[Transaction] = {
-    // Should return a list of all Transaction-objects stored in transactions
     transactions.valuesIterator.toList
   }
 
   def allTransactionsCompleted: Boolean = {
-    // Should return whether all Transaction-objects in transactions are completed
-    for (transaction in getTransactions){
-      if (!transaction.isComleted){
-        false
-      }
-    }
-    true
+    !getTransactions.exists(p => p.status == TransactionStatus.PENDING)
   }
 
-  def withdraw(amount: Double): Unit =  // Like in part 2
-  def deposit(amount: Double): Unit = ??? // Like in part 2
-  def getBalanceAmount: Double = ??? // Like in part 2
+  def withdraw(amount: Double): Unit =  this.synchronized {
+    if(amount>balance.amount){
+      throw new NoSufficientFundsException;
+    } else if (amount < 0) {
+      throw new IllegalAmountException;
+    } else {
+      balance.amount -= amount
+    }
+  }
+
+  def deposit(amount: Double): Unit = this.synchronized {
+    if (amount >= 0) {
+      balance.amount += amount;
+    } else {
+      throw new IllegalAmountException;
+    }
+  }
+
+  def getBalanceAmount: Double = balance.amount
 
   def sendTransactionToBank(t: Transaction): Unit = {
     // Should send a message containing t to the bank of this account
-    ???
+    BankManager.findBank(bankId) ! t
+
   }
 
   def transferTo(accountNumber: String, amount: Double): Transaction = {
@@ -78,17 +88,22 @@ class Account(val accountId: String, val bankId: String, val initialBalance: Dou
 
     case TransactionRequestReceipt(to, transactionId, transaction) => {
       // Process receipt
-      ???
+      if (transaction.status == TransactionStatus.FAILED){
+        deposit(transaction.amount)
+      }
+      transaction.receiptReceived = true
     }
 
-    case BalanceRequest => ??? // Should return current balance
+    case BalanceRequest => sender ! getBalanceAmount
 
     case t: Transaction => {
       // Handle incoming transaction
-      ???
+      deposit(t.amount)
+      t.status = TransactionStatus.SUCCESS
+      sender ! TransactionRequestReceipt(t.from, t.id, t)
     }
 
-    case msg => ???
+    case msg => println(msg.toString)
   }
 
 
