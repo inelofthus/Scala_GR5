@@ -1,6 +1,6 @@
 import exceptions._
 
-class Account(val bank: Bank, var initialBalance: Double) {
+class Account(val bank: Bank, val initialBalance: Double) {
 
   class Balance(var amount: Double) {}
 
@@ -8,25 +8,25 @@ class Account(val bank: Bank, var initialBalance: Double) {
   val uid = bank.generateAccountId
 
   def withdraw(amount: Double): Unit = this.synchronized {
-    if(amount>initialBalance){
+    if(amount>balance.amount){
       throw new NoSufficientFundsException;
     } else if (amount < 0) {
       throw new IllegalAmountException;
     } else {
-      initialBalance -= amount
+      balance.amount -= amount
     }
   }
   def deposit(amount: Double): Unit = this.synchronized {
     if (amount >= 0) {
-      initialBalance += amount;
+      balance.amount += amount;
     } else {
       throw new IllegalAmountException;
     }
   }
-  def getBalanceAmount: Double = initialBalance
+  def getBalanceAmount: Double = balance.amount
 
   def transferTo(account: Account, amount: Double) = {
-    println("transferTo")
+
     bank addTransactionToQueue (this, account, amount)
   }
 

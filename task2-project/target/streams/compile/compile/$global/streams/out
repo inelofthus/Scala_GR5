@@ -1,4 +1,2 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Ine\ScalaProsjekt\Scala_GR5\task2-project\src\main\scala\Bank.scala:43:31: value asList is not a member of TransactionQueue[0m
-[0m[[0m[31merror[0m] [0m[0m    println(transactionsQueue.asList.size)[0m
-[0m[[0m[31merror[0m] [0m[0m                              ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were two deprecation warnings (since 2.12.0); re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

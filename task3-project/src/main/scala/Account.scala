@@ -24,15 +24,20 @@ class Account(val accountId: String, val bankId: String, val initialBalance: Dou
 
   def getTransactions: List[Transaction] = {
     // Should return a list of all Transaction-objects stored in transactions
-    ???
+    transactions.valuesIterator.toList
   }
 
   def allTransactionsCompleted: Boolean = {
     // Should return whether all Transaction-objects in transactions are completed
-    ???
+    for (transaction in getTransactions){
+      if (!transaction.isComleted){
+        false
+      }
+    }
+    true
   }
 
-  def withdraw(amount: Double): Unit = ??? // Like in part 2
+  def withdraw(amount: Double): Unit =  // Like in part 2
   def deposit(amount: Double): Unit = ??? // Like in part 2
   def getBalanceAmount: Double = ??? // Like in part 2
 

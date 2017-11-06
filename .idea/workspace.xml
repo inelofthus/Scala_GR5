@@ -3,20 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="31062d40-2bb3-473e-b8e3-907f52210b79" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2-project/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterPath="$PROJECT_DIR$/task2-project/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2-project/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterPath="$PROJECT_DIR$/task2-project/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.12.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task1-project/src/main/scala/Account.scala" afterPath="$PROJECT_DIR$/task1-project/src/main/scala/Account.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2-project/src/main/scala/Account.scala" afterPath="$PROJECT_DIR$/task2-project/src/main/scala/Account.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2-project/src/main/scala/Bank.scala" afterPath="$PROJECT_DIR$/task2-project/src/main/scala/Bank.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2-project/src/main/scala/Transaction.scala" afterPath="$PROJECT_DIR$/task2-project/src/main/scala/Transaction.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2-project/target/streams/compile/compile/$global/streams/out" afterPath="$PROJECT_DIR$/task2-project/target/streams/compile/compile/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2-project/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/task2-project/target/streams/compile/compileIncremental/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2-project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/task2-project/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2-project/target/streams/test/$global/$global/definedTestNames/data" afterPath="$PROJECT_DIR$/task2-project/target/streams/test/$global/$global/definedTestNames/data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2-project/target/streams/test/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/task2-project/target/streams/test/compileIncremental/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2-project/target/streams/test/definedTests/$global/streams/out" afterPath="$PROJECT_DIR$/task2-project/target/streams/test/definedTests/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2-project/target/streams/test/test/$global/streams/out" afterPath="$PROJECT_DIR$/task2-project/target/streams/test/test/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2-project/target/streams/test/test/isModule=false name=AccountTests/test/out" afterPath="$PROJECT_DIR$/task2-project/target/streams/test/test/isModule=false name=AccountTests/test/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2-project/target/streams/test/test/$global/streams/succeeded_tests" afterPath="$PROJECT_DIR$/task2-project/target/streams/test/test/$global/streams/succeeded_tests" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2-project/target/streams/test/test/isModule=false name=AccountTransferTests/test/out" afterPath="$PROJECT_DIR$/task2-project/target/streams/test/test/isModule=false name=AccountTransferTests/test/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2-project/target/test-reports/AccountTests.xml" afterPath="$PROJECT_DIR$/task2-project/target/test-reports/AccountTests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2-project/target/test-reports/AccountTransferTests.xml" afterPath="$PROJECT_DIR$/task2-project/target/test-reports/AccountTransferTests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/src/main/scala/Account.scala" afterPath="$PROJECT_DIR$/task3-project/src/main/scala/Account.scala" />
     </list>
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,64 +28,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Account.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task2-project/src/main/scala/Account.scala">
+      <file leaf-file-name="Account.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task3-project/src/main/scala/Account.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="500">
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="Bank.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task3-project/src/main/scala/Bank.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bank.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/task2-project/src/main/scala/Bank.scala">
+      <file leaf-file-name="BankManager.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task3-project/src/main/scala/BankManager.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountTests.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task2-project/src/test/scala/AccountTests.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+            <state relative-caret-position="50">
+              <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Main.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task2-project/src/main/scala/Main.scala">
+        <entry file="file://$PROJECT_DIR$/task3-project/src/main/scala/Main.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="25">
+              <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Transaction.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task2-project/src/main/scala/Transaction.scala">
+        <entry file="file://$PROJECT_DIR$/task3-project/src/main/scala/Transaction.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="425">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,7 +92,9 @@
       <find>thread</find>
       <find>synch</find>
       <find>process</find>
+      <find>balance</find>
       <find>transferTo</find>
+      <find>doTra</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -115,6 +111,7 @@
         <option value="$PROJECT_DIR$/task2-project/src/main/scala/Transaction.scala" />
         <option value="$PROJECT_DIR$/task2-project/src/main/scala/Account.scala" />
         <option value="$PROJECT_DIR$/task2-project/src/main/scala/Bank.scala" />
+        <option value="$PROJECT_DIR$/task3-project/src/main/scala/Account.scala" />
       </list>
     </option>
   </component>
@@ -155,80 +152,28 @@
             <path>
               <item name="Scala_GR5" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scala_GR5" type="462c0819:PsiDirectoryNode" />
-              <item name="task1-project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Scala_GR5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scala_GR5" type="462c0819:PsiDirectoryNode" />
-              <item name="task1-project" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Scala_GR5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scala_GR5" type="462c0819:PsiDirectoryNode" />
-              <item name="task1-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Scala_GR5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scala_GR5" type="462c0819:PsiDirectoryNode" />
-              <item name="task1-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Scala_GR5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scala_GR5" type="462c0819:PsiDirectoryNode" />
-              <item name="task1-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Scala_GR5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scala_GR5" type="462c0819:PsiDirectoryNode" />
-              <item name="task2-project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Scala_GR5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scala_GR5" type="462c0819:PsiDirectoryNode" />
-              <item name="task2-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Scala_GR5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scala_GR5" type="462c0819:PsiDirectoryNode" />
-              <item name="task2-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Scala_GR5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scala_GR5" type="462c0819:PsiDirectoryNode" />
-              <item name="task2-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Scala_GR5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scala_GR5" type="462c0819:PsiDirectoryNode" />
-              <item name="task2-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Scala_GR5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scala_GR5" type="462c0819:PsiDirectoryNode" />
-              <item name="task2-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="task3-project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Scala_GR5" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scala_GR5" type="462c0819:PsiDirectoryNode" />
               <item name="task3-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala_GR5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala_GR5" type="462c0819:PsiDirectoryNode" />
+              <item name="task3-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala_GR5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala_GR5" type="462c0819:PsiDirectoryNode" />
+              <item name="task3-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -647,19 +592,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task2-project/src/main/scala/Account.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="700">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task2-project/src/main/scala/Transaction.scala">
+    <entry file="file://$PROJECT_DIR$/task2-project/src/main/scala/Bank.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="21" />
+        <state relative-caret-position="449">
+          <caret line="50" column="11" lean-forward="true" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2-project/src/test/scala/AccountTests.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="200" column="0" lean-forward="false" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -671,19 +624,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task2-project/src/test/scala/AccountTests.scala">
+    <entry file="file://$PROJECT_DIR$/task2-project/src/main/scala/Transaction.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        <state relative-caret-position="74">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task3-project/src/main/scala/Bank.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task3-project/src/main/scala/BankManager.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task2-project/src/main/scala/Bank.scala">
+    <entry file="file://$PROJECT_DIR$/task3-project/src/main/scala/Main.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task3-project/src/main/scala/Transaction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task3-project/src/main/scala/Account.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
