@@ -31,7 +31,7 @@ class Bank(val bankId: String) extends Actor {
   }
 
   override def receive = {
-    case CreateAccountRequest(initialBalance) => createAccount(initialBalance) // Create a new account
+    case CreateAccountRequest(initialBalance) => sender ! createAccount(initialBalance) // Create a new account
     case GetAccountRequest(id) => findAccount(id) // Return account
     case IdentifyActor => sender ! this
     case t: Transaction => processTransaction(t)
@@ -40,7 +40,7 @@ class Bank(val bankId: String) extends Actor {
       // Forward receipt
       implicit val timeout = new Timeout(5 seconds)
       val to = getRef(t.transaction.from)
-      if (to.isDefined) to.get ! t //Sender receipt til actor
+      if (to.isDefined) to.get ! t
 
     }
 
@@ -50,12 +50,16 @@ class Bank(val bankId: String) extends Actor {
   def processTransaction(t: Transaction): Unit = {
     val transactionStatus = t.status
     implicit val timeout = new Timeout(5 seconds)
-    val to = getRef(t.to)
-    if (to.isDefined){
+
+    //if (to.isDefined){
+    try{
+      val to = getRef(t.to)
       to.get ! t
-    } else {
-      t.status = TransactionStatus.FAILED
-      sender ! TransactionRequestReceipt(t.from, t.id, t)
+    }catch {
+      case _: Exception => {
+        t.status = TransactionStatus.FAILED
+        sender ! TransactionRequestReceipt(t.from, t.id, t)
+      }
     }
 
   }

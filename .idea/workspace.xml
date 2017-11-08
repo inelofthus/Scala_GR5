@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31062d40-2bb3-473e-b8e3-907f52210b79" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterPath="$PROJECT_DIR$/task3-project/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.12.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/build.sbt" afterPath="$PROJECT_DIR$/task3-project/build.sbt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/task3-project/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/src/main/scala/Account.scala" afterPath="$PROJECT_DIR$/task3-project/src/main/scala/Account.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/src/main/scala/Bank.scala" afterPath="$PROJECT_DIR$/task3-project/src/main/scala/Bank.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/src/test/scala/AccountTests.scala" afterPath="$PROJECT_DIR$/task3-project/src/test/scala/AccountTests.scala" />
@@ -26,8 +27,52 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/task3-project/target/streams/$global/update/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/task3-project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/task3-project/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/task3-project/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/task3-project/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/task3-project/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/task3-project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/task3-project/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/$global/$global/definedTestNames/data" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/$global/$global/definedTestNames/data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/compile/$global/streams/out" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/compile/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/compileIncremental/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/definedTests/$global/streams/out" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/definedTests/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/fullClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/managedClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/test/$global/streams/out" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/test/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/test/$global/streams/succeeded_tests" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/test/$global/streams/succeeded_tests" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test02/test/out" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test02/test/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test03/test/out" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test03/test/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test04/test/out" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test04/test/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test05/test/out" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test05/test/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test06/test/out" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test06/test/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test07/test/out" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test07/test/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test08/test/out" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test08/test/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test09/test/out" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test09/test/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test10/test/out" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test10/test/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test11/test/out" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test11/test/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test12/test/out" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test12/test/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test14/test/out" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test14/test/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test15/test/out" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test15/test/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test16/test/out" afterPath="$PROJECT_DIR$/task3-project/target/streams/test/test/isModule=false name=Test16/test/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/test-reports/Test02.xml" afterPath="$PROJECT_DIR$/task3-project/target/test-reports/Test02.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/test-reports/Test03.xml" afterPath="$PROJECT_DIR$/task3-project/target/test-reports/Test03.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/test-reports/Test04.xml" afterPath="$PROJECT_DIR$/task3-project/target/test-reports/Test04.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/test-reports/Test05.xml" afterPath="$PROJECT_DIR$/task3-project/target/test-reports/Test05.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/test-reports/Test06.xml" afterPath="$PROJECT_DIR$/task3-project/target/test-reports/Test06.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/test-reports/Test07.xml" afterPath="$PROJECT_DIR$/task3-project/target/test-reports/Test07.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/test-reports/Test08.xml" afterPath="$PROJECT_DIR$/task3-project/target/test-reports/Test08.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/test-reports/Test09.xml" afterPath="$PROJECT_DIR$/task3-project/target/test-reports/Test09.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/test-reports/Test10.xml" afterPath="$PROJECT_DIR$/task3-project/target/test-reports/Test10.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/test-reports/Test11.xml" afterPath="$PROJECT_DIR$/task3-project/target/test-reports/Test11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/test-reports/Test12.xml" afterPath="$PROJECT_DIR$/task3-project/target/test-reports/Test12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/test-reports/Test13.xml" afterPath="$PROJECT_DIR$/task3-project/target/test-reports/Test13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/test-reports/Test14.xml" afterPath="$PROJECT_DIR$/task3-project/target/test-reports/Test14.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/test-reports/Test15.xml" afterPath="$PROJECT_DIR$/task3-project/target/test-reports/Test15.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/test-reports/Test16.xml" afterPath="$PROJECT_DIR$/task3-project/target/test-reports/Test16.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3-project/target/test-reports/Test17.xml" afterPath="$PROJECT_DIR$/task3-project/target/test-reports/Test17.xml" />
     </list>
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,9 +85,11 @@
       <file leaf-file-name="Bank.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task3-project/src/main/scala/Bank.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-171">
-              <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="34" />
-              <folding />
+            <state relative-caret-position="399">
+              <caret line="61" column="7" lean-forward="false" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,8 +97,8 @@
       <file leaf-file-name="BankManager.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task3-project/src/main/scala/BankManager.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            <state relative-caret-position="464">
+              <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -70,8 +117,8 @@
       <file leaf-file-name="Transaction.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task3-project/src/main/scala/Transaction.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="450">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -80,8 +127,8 @@
       <file leaf-file-name="Account.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task3-project/src/main/scala/Account.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="29" column="44" lean-forward="false" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+            <state relative-caret-position="699">
+              <caret line="78" column="3" lean-forward="false" selection-start-line="78" selection-start-column="3" selection-end-line="78" selection-end-column="3" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -89,24 +136,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountTests.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AccountTests.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task3-project/src/test/scala/AccountTests.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="444" column="0" lean-forward="false" selection-start-line="444" selection-start-column="0" selection-end-line="444" selection-end-column="0" />
+            <state relative-caret-position="500">
+              <caret line="407" column="27" lean-forward="false" selection-start-line="407" selection-start-column="27" selection-end-line="407" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task3-project/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="100">
+              <caret line="4" column="75" lean-forward="false" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,8 +177,12 @@
       <find>find</find>
       <find>handleTra</find>
       <find>for</find>
-      <find>forw</find>
       <find>deposit</find>
+      <find>try</find>
+      <find>getFul</find>
+      <find>forw</find>
+      <find>sendtra</find>
+      <find>isDefin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -150,10 +199,10 @@
         <option value="$PROJECT_DIR$/task2-project/src/main/scala/Transaction.scala" />
         <option value="$PROJECT_DIR$/task2-project/src/main/scala/Account.scala" />
         <option value="$PROJECT_DIR$/task2-project/src/main/scala/Bank.scala" />
+        <option value="$PROJECT_DIR$/task3-project/build.sbt" />
+        <option value="$PROJECT_DIR$/task3-project/src/main/scala/Account.scala" />
         <option value="$PROJECT_DIR$/task3-project/src/main/scala/Bank.scala" />
         <option value="$PROJECT_DIR$/task3-project/src/test/scala/AccountTests.scala" />
-        <option value="$PROJECT_DIR$/task3-project/src/main/scala/Account.scala" />
-        <option value="$PROJECT_DIR$/task3-project/build.sbt" />
       </list>
     </option>
   </component>
@@ -345,7 +394,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -698,55 +747,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task3-project/src/main/scala/BankManager.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task3-project/src/main/scala/Bank.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task3-project/src/main/scala/Transaction.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="450">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task3-project/src/main/scala/Account.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="29" column="44" lean-forward="false" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        <state relative-caret-position="699">
+          <caret line="78" column="3" lean-forward="false" selection-start-line="78" selection-start-column="3" selection-end-line="78" selection-end-column="3" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task3-project/src/test/scala/AccountTests.scala">
+    <entry file="file://$PROJECT_DIR$/task3-project/src/main/scala/BankManager.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="444" column="0" lean-forward="false" selection-start-line="444" selection-start-column="0" selection-end-line="444" selection-end-column="0" />
+        <state relative-caret-position="464">
+          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task3-project/src/main/scala/Bank.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="61" column="7" lean-forward="false" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task3-project/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="100">
+          <caret line="4" column="75" lean-forward="false" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task3-project/src/test/scala/AccountTests.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="407" column="27" lean-forward="false" selection-start-line="407" selection-start-column="27" selection-end-line="407" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>

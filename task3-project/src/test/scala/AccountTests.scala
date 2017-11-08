@@ -22,7 +22,6 @@ object TestHelper {
     implicit val timeout = Timeout(5 seconds)
     val accountRef = Await.result(ask(bank, CreateAccountRequest(amount)).mapTo[ActorRef], 10 seconds)
     val account = Await.result(ask(accountRef, IdentifyActor).mapTo[Account], 10 seconds)
-
     (accountRef, account)
   }
 
@@ -56,12 +55,14 @@ class Test02 extends FunSuite {
 
   test("Add new bank account") {
     val bank: ActorRef = BankManager.createBank("2002")
+    println("bank")
     val (accountRef, account) = TestHelper.createBankAccount("2002", 1000)
+    println("accountref")
     assert(account.accountId == "1001" && account.getBalanceAmount == 1000)
   }
 
 }
-/*
+
 class Test03 extends FunSuite {
 
   test("Valid transaction within same bank, accounts should have correct balance.") {
@@ -95,7 +96,6 @@ class Test04 extends FunSuite {
 
   }
 }
-
 
 class Test05 extends FunSuite {
 
@@ -274,7 +274,6 @@ class Test10 extends FunSuite {
 
 }
 
-
 class Test11 extends FunSuite {
 
   test("Invalid transaction within one bank, transaction lists should have correct status information.") {
@@ -416,18 +415,18 @@ class Test16 extends FunSuite {
 
   test("Transaction to a non-existing bank should fail, and account balance should not be affected and transaction list should hold correct status information.") {
     val bank1: ActorRef = BankManager.createBank("1600")
-
+    println("1")
     val (accountRef1, account1) = TestHelper.createBankAccount("1600", 1000)
-
+    println("2")
     account1.transferTo("99998888", 200)
-
+    println("3")
     TestHelper.waitUntilAllTransactionsAreCompleted(List(account1))
-
+    println("4")
     account1.getTransactions.foreach(t => {
       assert(t.isCompleted)
       assert(!t.isSuccessful)
     })
-
+    println("5")
     assert(account1.getBalanceAmount == 1000)
 
   }
@@ -454,4 +453,3 @@ class Test17 extends FunSuite {
 
   }
 }
-*/

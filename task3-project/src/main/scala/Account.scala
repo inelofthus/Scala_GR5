@@ -52,8 +52,11 @@ class Account(val accountId: String, val bankId: String, val initialBalance: Dou
 
   def sendTransactionToBank(t: Transaction): Unit = {
     // Should send a message containing t to the bank of this account
-    BankManager.findBank(bankId) ! t
-
+    try {
+      BankManager.findBank(bankId) ! t
+    } catch {
+      case _: NoSuchElementException => t.status = TransactionStatus.FAILED
+    }
   }
 
   def transferTo(accountNumber: String, amount: Double): Transaction = {
